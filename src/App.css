@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fc;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #1e3a8a;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  width: 150px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+.search-box {
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+.add-form {
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  padding: 10px;
+  width: 220px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.add-form button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.students-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+.present-badge {
+  color: green;
+  font-weight: bold;
+}
+
+.absent-badge {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin-top: 15px;
+}
+
+.toggle-btn {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.stat-card:nth-child(1) h2 {
+  color: green;
+}
+
+.stat-card:nth-child(2) h2 {
+  color: red;
+}
+
+.stat-card:nth-child(3) h2 {
+  color: #2563eb;
+}
+.stat-card p {
+  color: #333;
+  font-weight: 600;
+}
