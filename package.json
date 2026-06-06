@@ -2,11 +2,14 @@
   "name": "student-attendance-tracker",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://YOUR_USERNAME.github.io/student-attendance-tracker",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +24,7 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
   }
